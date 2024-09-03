@@ -1,5 +1,5 @@
 # OpenVault
-OpenVault is a white-labelled Enterprise Custody Wallet core banking solution in the Bitcoin Standard for traditional banks to upgrade their Infra to offer their Clients different risk profile of Bitcoin Custody
+OpenVault is a white-labelled Bitcoin based Enterprise Custody Wallet core banking solution in the Bitcoin Standard for traditional banks to upgrade their Infra to offer their Clients different risk profile of Bitcoin Custody
 
 # Why OpenVault
 Build a vault standard easily accessible for all Banks to upgrade Infrastructure to upgrade their capability to offer Bitcoin Custodial Services to their Clients in their existing Infrastructure. The vision is to become the core banking backend for Bitcoin Standard in comparison to Traditional banks using like [Finacle](https://www.edgeverve.com/finacle/), [Temenos](https://www.temenos.com/), [Avaloq](https://www.avaloq.com/), [Apache Fineract](https://github.com/apache/fineract)
