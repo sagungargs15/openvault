@@ -1,13 +1,13 @@
 # Bitcoin only B2B Other Platforms as Inspiration & Fellow Industry Participants
-  1. FOSS
-         a. Caravan - https://unchained-capital.github.io/caravan/#/
-         b. Liana - https://wizardsardine.com/liana/
-         c. Revault - https://github.com/revault/revaultd
-         d. Galoy - https://www.galoy.io/
-         e. My Citadel - https://mycitadel.io/
-  2. Proprietary 
-       a. AnchorWatch - https://anchorwatch.com/
-       b. OnRamp - https://onrampbitcoin.com/
+    1. FOSS
+           a. Caravan - https://unchained-capital.github.io/caravan/#/
+           b. Liana - https://wizardsardine.com/liana/
+           c. Revault - https://github.com/revault/revaultd
+           d. Galoy - https://www.galoy.io/
+           e. My Citadel - https://mycitadel.io/
+    2. Proprietary 
+         a. AnchorWatch - https://anchorwatch.com/
+         b. OnRamp - https://onrampbitcoin.com/
 
 # Crypto B2B Enterprise Custody Solutions
   1. BitGo - https://www.bitgo.com/
