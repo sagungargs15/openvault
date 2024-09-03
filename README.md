@@ -5,28 +5,28 @@ OpenVault is a white-labelled Enterprise Custody Wallet core banking solution in
 Build a vault standard easily accessible for all Banks to upgrade Infrastructure to upgrade their capability to offer Bitcoin Custodial Services to their Clients in their existing Infrastructure. The vision is to become the core banking backend for Bitcoin Standard in comparison to Traditional banks using like Finnacle, Temenos, Avaloq, 
 
 # OpenVault Offerings
-1. Dependency/Inspiration on other FOSS projects
-       a. WALLET: Liana - [link](https://github.com/wizardsardine/liana)
-       b. VAULT: Revault - [link](https://github.com/revault/revaultd)
-       c. WALLET Caravan - [link](https://github.com/unchained-capital/caravan)
-       d. ADMIN PANEL: Authentik - [link](https://github.com/goauthentik/authentik)
-3. Product Features
-       a. Direct Bitcoin Custody
-       b. Onchain Inheritance for Generational Wealth Transfer
-       c. BUM Audit - Bitcoin Under Management Independent Audit (proof of reserves)
-       d. Compatability with latest Hardware Wallet Providers (Flexibility of HSMs without using HSMs: Software defined HSMs)
-       e. Education Kit on Security Posture and best practices
-       f. Technical Insurance: Build Recovery pathways (Expanding or Contracting Multi-Sig)
-4. Technical Features    
-       a. Setup vaults for your clients [Individual vs Family vs Institutional]
-       b. Purpose based Vaults (multiple configurations)
-       c. Vault Configurations: Multi-sig Wallet Setup Options [Custodial, Collaborative vs Non-Custodial]
-       d. Easily Integrate with On Prem / SaaS based e-banking solutions of Banks
-           a. Multiple Protocol Mediations/DataExchange: RestAPI/GraphAPI/Webhooks/RPCs
-           b. Air gapped Containerized deployments: DockerCompose/K8 HelmCharts/ K8s Operators
-           c. Rolebased Access Control Integration Support: AWS IAMCore / Azure EntraID or ADFS / Google
-           d. Logging & Piping to Enterprise Loggers: 
-           e. Admin Panel to manage Ops from internal employees
+       1. Dependency/Inspiration on other FOSS projects
+              a. WALLET: Liana - [link](https://github.com/wizardsardine/liana)
+              b. VAULT: Revault - [link](https://github.com/revault/revaultd)
+              c. WALLET Caravan - [link](https://github.com/unchained-capital/caravan)
+              d. ADMIN PANEL: Authentik - [link](https://github.com/goauthentik/authentik)
+       2. Product Features
+              a. Direct Bitcoin Custody
+              b. Onchain Inheritance for Generational Wealth Transfer
+              c. BUM Audit - Bitcoin Under Management Independent Audit (proof of reserves)
+              d. Compatability with latest Hardware Wallet Providers (Flexibility of HSMs without using HSMs: Software defined HSMs)
+              e. Education Kit on Security Posture and best practices
+              f. Technical Insurance: Build Recovery pathways (Expanding or Contracting Multi-Sig)
+       3. Technical Features    
+              a. Setup vaults for your clients [Individual vs Family vs Institutional]
+              b. Purpose based Vaults (multiple configurations)
+              c. Vault Configurations: Multi-sig Wallet Setup Options [Custodial, Collaborative vs Non-Custodial]
+              d. Easily Integrate with On Prem / SaaS based e-banking solutions of Banks
+                  a. Multiple Protocol Mediations/DataExchange: RestAPI/GraphAPI/Webhooks/RPCs
+                  b. Air gapped Containerized deployments: DockerCompose/K8 HelmCharts/ K8s Operators
+                  c. Rolebased Access Control Integration Support: AWS IAMCore / Azure EntraID or ADFS / Google
+                  d. Logging & Piping to Enterprise Loggers: 
+                  e. Admin Panel to manage Ops from internal employees
 
 # Overall Architecture 
 ```mermaid
