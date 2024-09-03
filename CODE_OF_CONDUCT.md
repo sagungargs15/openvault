@@ -1,7 +1,3 @@
-Certainly! Here's a sample `CODE_OF_CONDUCT.md` for a Free and Open Source Software (FOSS) OpenVault Bitcoin project. You can adjust the specifics to better fit the needs and culture of your project.
-
----
-
 # Code of Conduct
 
 ## Introduction
