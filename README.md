@@ -1,8 +1,10 @@
 # OpenVault
-OpenVault is a white-labelled Bitcoin based Enterprise Custody Wallet core banking solution in the Bitcoin Standard for traditional banks to upgrade their Infra to offer their Clients different risk profile of Bitcoin Custody
+OpenVault is a platform for securely managing keys to Bitcoin wallets for Enterprises. It is a white-labelled Bitcoin based Enterprise Custody Wallet core banking solution in the Bitcoin Standard for traditional banks to upgrade their Infra to offer their Clients different risk profile of Bitcoin Custody. OpenVault provides a unified interface to any key, while providing tight access control and recording a detailed audit log. 
+
+A enterprise custody system requires policies and access control to understand who in the org is enbling what keys are being re-generated in a zero knowledge fashion for clients. Adding on key rolling, secure storage, and detailed audit logs is almost impossible without a custom solution. Mostly all enterprise custody wallet solution providers like BitGo, Coinbase, Bakkt and Fortress have their respective pproprietary custom solutions. This is where OpenVault steps in to create a FOSS based open platform.
 
 # Why OpenVault
-Build a vault standard easily accessible for all Banks to upgrade Infrastructure to upgrade their capability to offer Bitcoin Custodial Services to their Clients in their existing Infrastructure. The vision is to become the core banking backend for Bitcoin Standard in comparison to Traditional banks using like [Finacle](https://www.edgeverve.com/finacle/), [Temenos](https://www.temenos.com/), [Avaloq](https://www.avaloq.com/), [Apache Fineract](https://github.com/apache/fineract)
+Build a vault standard easily accessible for all Banks to upgrade Infrastructure to upgrade their capability to offer Bitcoin Custodial Services to their Clients in their existing Infrastructure. The vision is to become the core banking backend for Bitcoin Custody in the Bitcoin Standard in comparison to Traditional banks using like [Finacle](https://www.edgeverve.com/finacle/), [Temenos](https://www.temenos.com/), [Avaloq](https://www.avaloq.com/), [Apache Fineract](https://github.com/apache/fineract)
 
 # OpenVault Offerings
        1. Dependency/Inspiration on other FOSS projects
