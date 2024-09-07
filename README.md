@@ -27,6 +27,9 @@ Build a vault standard easily accessible for all Banks to upgrade Infrastructure
               d. Compatability with latest Hardware Wallet Providers (Flexibility of HSMs without using HSMs: Software defined HSMs)
               e. Education Kit on Security Posture and best practices
               f. Technical Insurance/Disaster recovery: Build Recovery pathways (Expanding or Contracting Multi-Sig)
+                    i. The lockup period is enforced onchain by the Bitcoin network. This is achieved by leveraging timelock capabilities of Bitcoin smart contracts (Script).
+                    ii. OpenVault gives trustless inheritance, loss protection or safer backups
+                    iii. 
               g. Hot & Cold Wallets interoperability: A fully decentralized, air-gapped cold wallet solution guarantees you control key shard distribution, providing the utmost security for your businesses.
               h. Policy Engine: Support Txn thresholds based on hierarchy and role of signing authority
               i. Transaction Approval Workflows: Build your own transaction policy engine using the Presigned Transactions Node Suite to serve your enterprise customers, enabling multi-party transaction approvals to facilitate secure control and governance of multiple keys in multi-sign scheme. 
@@ -35,7 +38,8 @@ Build a vault standard easily accessible for all Banks to upgrade Infrastructure
               a. Setup vaults for your clients [Individual vs Family vs Institutional]
               b. Purpose based Vaults (multiple configurations)
               c. Vault Configurations: Multi-sig Wallet Setup Options [Custodial, Collaborative vs Non-Custodial]
-              d. Easily Integrate with On Prem / SaaS based e-banking solutions of Banks
+              d. 
+              e. Easily Integrate with On Prem / SaaS based e-banking solutions of Banks
                   a. Multiple Protocol Mediations/DataExchange: RestAPI/GraphAPI/Webhooks/RPCs
                   b. Air gapped Containerized deployments: DockerCompose/K8 HelmCharts/ K8s Operators
                   c. Rolebased Access Control Integration Support: AWS IAMCore / Azure EntraID or ADFS / Google
@@ -220,3 +224,20 @@ flowchart TD
 ```mermaid
   info
 ```
+# Security
+See SECURITY.md for details about reporting a security vulnerability or any bug that could potentially impact the security of users' funds.
+
+# License
+Released under the BSD 3-Clause Licence. See the LICENSE.md file.
+
+# Contributing
+ See CONTRIBUTING.md for details about contributing to the FOSS project. 
+
+# Hacking on OpenVault
+
+## GUI
+
+## BE
+
+## Containerization
+
