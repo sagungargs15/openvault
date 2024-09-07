@@ -1,7 +1,15 @@
 # OpenVault
 OpenVault is a platform for securely managing keys to Bitcoin wallets for Enterprises (self, clients). It is a white-labelled Bitcoin based Enterprise Custody Wallet core banking solution in the Bitcoin Standard for traditional banks to upgrade their Infra to offer their Clients different risk profile of Bitcoin Custody. OpenVault provides a unified interface to any key, while providing tight access control and recording a detailed audit log. 
 
+OpenVault Multisig Node Suite is a fully privatized white-label solution, enabling you to securely, efficiently, and at scale build applications based on Multi-Sig Bitcoin wallets. Experience seamless integration into your applications. As a privatized solution featuring server-side Multi-sig Node middleware and SDKs for browsers, Android, and iOS, it offers a unified set of functions, interfaces, and integration processes. Quickly develop your Bitcoin wallet applications while maintaining full data ownership and privacy. 
+
 A enterprise custody system requires policies and access control to understand who in the org is enbling what keys are being re-generated in a zero knowledge fashion for clients. Adding on key rolling, secure storage, and detailed audit logs is almost impossible without a custom solution. Mostly all enterprise custody wallet solution providers like BitGo, Coinbase, Bakkt and Fortress have their respective pproprietary custom solutions. This is where OpenVault steps in to create a FOSS based open platform.
+
+Support diverse business scenarios to accelerate your success
+       1. Keyless Wallets (Target Customer: Wallet Service Provider)
+       2. Financial Platform (Target Customer: Exchanges/Payment Service Providers)
+       3. Self Custody Service Provider (Target Customer: Banks/Financial Institutions)
+       4. Cold Wallet Solution (Target Customer: Custodians)
 
 # Why OpenVault
 Build a vault standard easily accessible for all Banks to upgrade Infrastructure to upgrade their capability to offer Bitcoin Custodial Services to their Clients in their existing Infrastructure. The vision is to become the core banking backend for Bitcoin Custody in the Bitcoin Standard in comparison to Traditional banks using like [Finacle](https://www.edgeverve.com/finacle/), [Temenos](https://www.temenos.com/), [Avaloq](https://www.avaloq.com/), [Apache Fineract](https://github.com/apache/fineract)
@@ -18,7 +26,11 @@ Build a vault standard easily accessible for all Banks to upgrade Infrastructure
               c. BUM Audit - Bitcoin Under Management Independent Audit (proof of reserves)
               d. Compatability with latest Hardware Wallet Providers (Flexibility of HSMs without using HSMs: Software defined HSMs)
               e. Education Kit on Security Posture and best practices
-              f. Technical Insurance: Build Recovery pathways (Expanding or Contracting Multi-Sig)
+              f. Technical Insurance/Disaster recovery: Build Recovery pathways (Expanding or Contracting Multi-Sig)
+              g. Hot & Cold Wallets interoperability: A fully decentralized, air-gapped cold wallet solution guarantees you control key shard distribution, providing the utmost security for your businesses.
+              h. Policy Engine: Support Txn thresholds based on hierarchy and role of signing authority
+              i. Transaction Approval Workflows: Build your own transaction policy engine using the Presigned Transactions Node Suite to serve your enterprise customers, enabling multi-party transaction approvals to facilitate secure control and governance of multiple keys in multi-sign scheme. 
+              j. Enterprise-grade self-custody through private deployment
        3. Technical Features    
               a. Setup vaults for your clients [Individual vs Family vs Institutional]
               b. Purpose based Vaults (multiple configurations)
