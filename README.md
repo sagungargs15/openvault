@@ -9,7 +9,7 @@ Support diverse business scenarios to accelerate your success
        1. Keyless Wallets (Target Customer: Wallet Service Provider)
        2. Financial Platform (Target Customer: Exchanges/Payment Service Providers)
        3. Self Custody Service Provider (Target Customer: Banks/Financial Institutions)
-       4. Cold Wallet Solution (Target Customer: Custodians)
+       4. Cold Wallet Solution (Target Customer: Corporates looking for Self Treasury Solutions) - OpenVault allows any small business, mid-market, or enterprise to seamlessly store, transact, and manage their Bitcoin Treasury.
 
 # Why OpenVault
 Build a vault standard easily accessible for all Banks to upgrade Infrastructure to upgrade their capability to offer Bitcoin Custodial Services to their Clients in their existing Infrastructure. The vision is to become the core banking backend for Bitcoin Custody in the Bitcoin Standard in comparison to Traditional banks using like [Finacle](https://www.edgeverve.com/finacle/), [Temenos](https://www.temenos.com/), [Avaloq](https://www.avaloq.com/), [Apache Fineract](https://github.com/apache/fineract)
