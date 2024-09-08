@@ -33,6 +33,7 @@
   5. **[BIP-352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki)** : (Silent Payments): Although not directly related to custody, the privacy aspects introduced by BIP-352 could theoretically be integrated or considered for enhancing the privacy of transactions within a custody solution like Revault.
   6. **[BIP-340](https://github.com/bitcoin/bips/blob/master/bip-0340.mediawiki)** (Taproot) : These are not explicitly mentioned in the context of Revault's design but are crucial for enhancing Bitcoin's scripting capabilities. Revault's use of complex transaction scripts for emergency and regular transactions could theoretically benefit from or be designed with Taproot's capabilities in mind, although Revault's described functionality predates or doesn't require Taproot for its core operations.
   7. **[BIP-341](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki)** (Tapscript): Vault custody designs might not directly depend on Tapscript for their immediate functionality, BIP-341 (Taproot) enhances the overall ecosystem in which these solutions operate. It offers better privacy, efficiency, and future flexibility, which are all critical for the long-term viability and security of Bitcoin vault custody systems.
+  8. **[BIP 388](https://github.com/bitcoin/bips/blob/master/bip-0388.mediawiki)**: Wallet Policies for Descriptor Wallets
 
 # Crypto B2B Enterprise Custody Solutions
   1. [BitGo](https://www.bitgo.com/)
@@ -60,13 +61,25 @@
   8. [Portal](https://github.com/TwentyTwoHW/portal-software)
   9. [Frost](https://frostsnap.com/)
 
-
-
 # Reference Talks on Self-Custody, Inheritance, Enterprise Custody, Miniscript and Covenants
-  1. [24Jan2024]Bitcoin Custody for Institutions w/ Caitlin Long & Wes Knobel (BTC166): [Video](https://www.youtube.com/watch?v=u8UpiYJqCTo)
-  2. [16Jan2023] Daniela Brozzoni - Life is short, Bitcoin is forever: [Video](https://www.youtube.com/watch?v=QquvK-gMOFk)
-  2. [28Aoct2023]Collaborative custody bitcoin vaults for private wealth and enterprise: [Video](https://www.youtube.com/watch?v=0as_B7wfAp0)
-  3. [22Aug2022] Bitcoin Energy & Custody w/ Parker Lewis & Will Cole: [Video](https://www.youtube.com/watch?v=Xw9kQFJcXds&t=0s)
-  4. [21Jul2022]The Bitcoin Custody Protocol - Fedimint w/ Obi Nwosu: [Video](https://www.youtube.com/watch?v=X1OlFs2IMgo)  
-  5. [17Mar2022] Bitcoin Retirement Planning & Self-Custody w/ Parker Lewis & Jeff Vandrew: [Video](https://www.youtube.com/watch?v=vA1bOKbEIzI)
-  6. [16Jun2021] Bitcoin Security and Self Custody w/ Nick Neuman: [Video](https://www.youtube.com/watch?v=vA1bOKbEIzI)
+    1. INSTITUTIONAL CUSTODY: [24Jan2024]Bitcoin Custody for Institutions w/ Caitlin Long & Wes Knobel (BTC166): [Video](https://www.youtube.com/watch?v=u8UpiYJqCTo)
+    2. INHERITANCE: [16Jan2023] Daniela Brozzoni - Life is short, Bitcoin is forever: [Video](https://www.youtube.com/watch?v=QquvK-gMOFk)
+    2. BITCOIN VAULTS: [28Aoct2023]Collaborative custody bitcoin vaults for private wealth and enterprise: [Video](https://www.youtube.com/watch?v=0as_B7wfAp0)
+    3. SELF-CUSTODY: [22Aug2022] Bitcoin Energy & Custody w/ Parker Lewis & Will Cole: [Video](https://www.youtube.com/watch?v=Xw9kQFJcXds&t=0s)
+    4. SELF-CUSTODY: [21Jul2022]The Bitcoin Custody Protocol - Fedimint w/ Obi Nwosu: [Video](https://www.youtube.com/watch?v=X1OlFs2IMgo)  
+    5. INHERITANCE: [17Mar2022] Bitcoin Retirement Planning & Self-Custody w/ Parker Lewis & Jeff Vandrew: [Video](https://www.youtube.com/watch?v=vA1bOKbEIzI)
+    6. SELF-CUSTODY:[16Jun2021] Bitcoin Security and Self Custody w/ Nick Neuman: [Video](https://www.youtube.com/watch?v=vA1bOKbEIzI)
+    7. MINISCRIPT: [10Mar2020] Andrew Poelstra - Bitcoin Script to Miniscript: [Video](https://www.youtube.com/watch?v=_v1lECxNDiM) 
+    8. MINISCRIPT: [12Jan2023] CD86: Miniscript with Rob, Vivek, and NVK: [Video](https://www.youtube.com/watch?v=PjCL3tr5VAw) Tags: miniscript, multisig wallets, inheritance planning, corporate treasuries, hardware wallets, tradeoffs 
+    9. MINISCRIPT: [24May2023] Miniscript Panel on Opensource stage of Miami Bitcoin 2023 [Video](https://www.youtube.com/watch?v=RiLP79eJvqw&t=12722s)
+    10. MINISCRIPT: SLP452 Bitcoin Miniscript and what it enables – with Antoine Poinsot & Salvatore Ingala: [Podcast](https://stephanlivera.com/episode/452/)
+
+# Reference Blogs/Articles
+    1. MINISCRIPT: [Towards a trustless Bitcoin wallet with miniscript](https://www.ledger.com/blog/towards-a-trustless-bitcoin-wallet-with-miniscript) 
+    2. MINISCRIPT: [miniscript is Coming](https://blog.ledger.com/miniscript-is-coming/)
+
+  # Top Technical Leaders Open for Consultations
+    1. [Vivek kasarabada](https://x.com/seardsalmon) - Miniscript
+    2. https://x.com/darosior - Miniscript
+    3. https://x.com/salvatoshi  - Miniscript
+
