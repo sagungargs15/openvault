@@ -42,54 +42,54 @@
   14. **[DRAFT BIP]** The ChillDKG BIP (Bitcoin Improvement Proposal) is currently in draft form and focuses on implementing a Distributed Key Generation (DKG) protocol specifically designed for use with the FROST (Flexible Round-Optimized Schnorr Threshold) signature scheme. ChillDKG aims to provide a standalone, easy-to-implement DKG protocol that can be used for generating keys for threshold signatures, particularly for FROST. This is crucial for scenarios where multiple parties need to collaboratively generate a shared public key without any single party having the power to sign transactions alone. While the ChillDKG BIP focuses on key generation, it's intended to work in conjunction with another BIP for FROST signing, indicating a broader initiative to enhance Bitcoin's scripting capabilities with threshold signatures. By implementing threshold signatures, ChillDKG contributes to scenarios where higher security or privacy is required, like in multi-signature setups for corporate treasuries or complex smart contracts.Protocol: Based on the SimplPedPop protocol, ChillDKG incorporates modern cryptographic primitives to ensure secure, authenticated, and uncensored communication among participants.Key Generation: Participants engage in a process where they commit to shares of a secret key, followed by a verification phase to ensure all shares are correct, culminating in the generation of a threshold public key.
 
 # Crypto B2B Enterprise Custody Solutions
-  1. [BitGo](https://www.bitgo.com/)
-  2. [Coinbase Custody](https://www.coinbase.com/en-sg/prime/custody)
-  3. [Safeheron](https://safeheron.com/) 
-  4. [Bakkt](https://bakkt.com/) 
-  5. [Fireblocks](https://www.fireblocks.com/)
-  6. [CheckSig](https://www.checksig.com/)
-  7. [Porto](https://www.porto.xyz//) by [Anchorage Digital](https://www.anchorage.com/)
-  8. [Atato](https://www.atato.com/) 
+1. [BitGo](https://www.bitgo.com/)
+2. [Coinbase Custody](https://www.coinbase.com/en-sg/prime/custody)
+3. [Safeheron](https://safeheron.com/) 
+4. [Bakkt](https://bakkt.com/) 
+5. [Fireblocks](https://www.fireblocks.com/)
+6. [CheckSig](https://www.checksig.com/)
+7. [Porto](https://www.porto.xyz//) by [Anchorage Digital](https://www.anchorage.com/)
+8. [Atato](https://www.atato.com/) 
    
 # B2C Multi-Sig Software Wallet Providers
-   1. Casa - https://casa.io/
-   2. Theya - https://www.theya.us/
-   3. Nunchuk - https://nunchuk.io/
+1. Casa - https://casa.io/
+2. Theya - https://www.theya.us/
+3. Nunchuk - https://nunchuk.io/
 
 # B2C Hardware Wallet Signing Devices 
-  1. Trezor
-  2. Ledger
-  3. Cold Card M4/Q
-  4. Bitbox
-  5. Seed Signer
-  6. Foundation Passport
-  7. Jade
-  8. [Portal](https://github.com/TwentyTwoHW/portal-software), [TwentyTwo](https://twenty-two.xyz/)
-  9. [Frostsnap](https://frostsnap.com/)
+1. Trezor
+2. Ledger
+3. Cold Card M4/Q
+4. Bitbox
+5. Seed Signer
+6. Foundation Passport
+7. Jade
+8. [Portal](https://github.com/TwentyTwoHW/portal-software), [TwentyTwo](https://twenty-two.xyz/)
+9. [Frostsnap](https://frostsnap.com/)
 
 # Reference Talks on Self-Custody, Inheritance, Enterprise Custody, Miniscript and Covenants
-    1. INSTITUTIONAL CUSTODY: [24Jan2024]Bitcoin Custody for Institutions w/ Caitlin Long & Wes Knobel (BTC166): [Video](https://www.youtube.com/watch?v=u8UpiYJqCTo)
-    2. INHERITANCE: [16Jan2023] Daniela Brozzoni - Life is short, Bitcoin is forever: [Video](https://www.youtube.com/watch?v=QquvK-gMOFk)
-    2. BITCOIN VAULTS: [28Aoct2023]Collaborative custody bitcoin vaults for private wealth and enterprise: [Video](https://www.youtube.com/watch?v=0as_B7wfAp0)
-    3. SELF-CUSTODY: [22Aug2022] Bitcoin Energy & Custody w/ Parker Lewis & Will Cole: [Video](https://www.youtube.com/watch?v=Xw9kQFJcXds&t=0s)
-    4. SELF-CUSTODY: [21Jul2022]The Bitcoin Custody Protocol - Fedimint w/ Obi Nwosu: [Video](https://www.youtube.com/watch?v=X1OlFs2IMgo)  
-    5. INHERITANCE: [17Mar2022] Bitcoin Retirement Planning & Self-Custody w/ Parker Lewis & Jeff Vandrew: [Video](https://www.youtube.com/watch?v=vA1bOKbEIzI)
-    6. SELF-CUSTODY:[16Jun2021] Bitcoin Security and Self Custody w/ Nick Neuman: [Video](https://www.youtube.com/watch?v=vA1bOKbEIzI)
-    7. MINISCRIPT: [10Mar2020] Andrew Poelstra - Bitcoin Script to Miniscript: [Video](https://www.youtube.com/watch?v=_v1lECxNDiM) 
-    8. MINISCRIPT: [12Jan2023] CD86: Miniscript with Rob, Vivek, and NVK: [Video](https://www.youtube.com/watch?v=PjCL3tr5VAw) Tags: miniscript, multisig wallets, inheritance planning, corporate treasuries, hardware wallets, tradeoffs 
-    9. MINISCRIPT: [24May2023] Miniscript Panel on Opensource stage of Miami Bitcoin 2023 [Video](https://www.youtube.com/watch?v=RiLP79eJvqw&t=12722s)
-    10. MINISCRIPT: [23Jan2023]SLP452 Bitcoin Miniscript and what it enables – with Antoine Poinsot & Salvatore Ingala: [Podcast](https://stephanlivera.com/episode/452/)
-    11. MINISCRIPT: [6Sep2024]Bitcoin in a Taproot World w/ Nick Farrow, Rob Hamilton & Kody Low: [Video](https://www.youtube.com/watch?v=6FFIY4gMy28)
+1. INSTITUTIONAL CUSTODY: [24Jan2024]Bitcoin Custody for Institutions w/ Caitlin Long & Wes Knobel (BTC166): [Video](https://www.youtube.com/watch?v=u8UpiYJqCTo)
+2. INHERITANCE: [16Jan2023] Daniela Brozzoni - Life is short, Bitcoin is forever: [Video](https://www.youtube.com/watch?v=QquvK-gMOFk)
+2. BITCOIN VAULTS: [28Aoct2023]Collaborative custody bitcoin vaults for private wealth and enterprise: [Video](https://www.youtube.com/watch?v=0as_B7wfAp0)
+3. SELF-CUSTODY: [22Aug2022] Bitcoin Energy & Custody w/ Parker Lewis & Will Cole: [Video](https://www.youtube.com/watch?v=Xw9kQFJcXds&t=0s)
+4. SELF-CUSTODY: [21Jul2022]The Bitcoin Custody Protocol - Fedimint w/ Obi Nwosu: [Video](https://www.youtube.com/watch?v=X1OlFs2IMgo)  
+5. INHERITANCE: [17Mar2022] Bitcoin Retirement Planning & Self-Custody w/ Parker Lewis & Jeff Vandrew: [Video](https://www.youtube.com/watch?v=vA1bOKbEIzI)
+6. SELF-CUSTODY:[16Jun2021] Bitcoin Security and Self Custody w/ Nick Neuman: [Video](https://www.youtube.com/watch?v=vA1bOKbEIzI)
+7. MINISCRIPT: [10Mar2020] Andrew Poelstra - Bitcoin Script to Miniscript: [Video](https://www.youtube.com/watch?v=_v1lECxNDiM) 
+8. MINISCRIPT: [12Jan2023] CD86: Miniscript with Rob, Vivek, and NVK: [Video](https://www.youtube.com/watch?v=PjCL3tr5VAw) Tags: miniscript, multisig wallets, inheritance planning, corporate treasuries, hardware wallets, tradeoffs 
+9. MINISCRIPT: [24May2023] Miniscript Panel on Opensource stage of Miami Bitcoin 2023 [Video](https://www.youtube.com/watch?v=RiLP79eJvqw&t=12722s)
+10. MINISCRIPT: [23Jan2023]SLP452 Bitcoin Miniscript and what it enables – with Antoine Poinsot & Salvatore Ingala: [Podcast](https://stephanlivera.com/episode/452/)
+11. MINISCRIPT: [6Sep2024]Bitcoin in a Taproot World w/ Nick Farrow, Rob Hamilton & Kody Low: [Video](https://www.youtube.com/watch?v=6FFIY4gMy28)
 
 # Reference Blogs/Articles
-    1. MINISCRIPT: [Towards a trustless Bitcoin wallet with miniscript](https://www.ledger.com/blog/towards-a-trustless-bitcoin-wallet-with-miniscript) 
-    2. MINISCRIPT: [miniscript is Coming](https://blog.ledger.com/miniscript-is-coming/)
+1. MINISCRIPT: [Towards a trustless Bitcoin wallet with miniscript](https://www.ledger.com/blog/towards-a-trustless-bitcoin-wallet-with-miniscript) 
+2. MINISCRIPT: [miniscript is Coming](https://blog.ledger.com/miniscript-is-coming/)
 
-  # Top Technical Leaders Open for Consultations
-    1. [Vivek kasarabada](https://x.com/seardsalmon) - Miniscript
-    2. https://x.com/darosior - Miniscript
-    3. https://x.com/salvatoshi  - Miniscript
-    4. Nick Farrow - Frostsnap 
-    5. Rob Hamilton - AnchorWatch
-    6. Kody Low - Fedi 
+# Top Technical Leaders Open for Consultations
+1. [Vivek kasarabada](https://x.com/seardsalmon) - Miniscript
+2. https://x.com/darosior - Miniscript
+3. https://x.com/salvatoshi  - Miniscript
+4. Nick Farrow - Frostsnap 
+5. Rob Hamilton - AnchorWatch
+6. Kody Low - Fedi 
 
