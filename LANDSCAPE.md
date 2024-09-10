@@ -23,10 +23,11 @@ d. [My Citadel](https://mycitadel.io/), [github repo](https://github.com/mycitad
   3. **[Elephant](https://github.com/bitcoindevkit/elephant)** : Elephant is a Bitcoin Wallet designed to demonstrate the power of Bitcoin policies in a sandbox environment.
   4. **[Miniscript Rust SDK](https://docs.rs/miniscript/latest/miniscript/)**, **[github](https://docs.rs/miniscript/latest/miniscript/)** :Support for [Miniscript](https://bitcoin.sipa.be/miniscript/) and Output Descriptors for rust-bitcoin. This library supports the creation and manipulation of Bitcoin scripts using the Miniscript language, which is particularly useful with Taproot's introduction. Miniscript allows for the creation of modular script components. For instance, you can define a "threshold" component where m of n keys must sign, and then reuse this in different parts of your hierarchical structure.  Miniscript provides tools to verify that the script does what it's supposed to do, reducing the risk of bugs or vulnerabilities in complex scripts. By using Miniscript, you leverage its built-in checks to ensure that your scripts are secure against common scripting errors or exploits. Miniscript enhances Bitcoin's scripting capabilities by allowing for the creation of complex, yet manageable, custody structures like key hierarchies
         a. Multi-signature with Key Hierarchy: Miniscript can define scripts where different keys or combinations of keys from different hierarchical levels are required to spend funds. This could be used for governance structures where different levels of approval are needed based on the amount or type of transaction. Example: A setup where small transactions can be signed by a single key from a lower level in the hierarchy, but larger transactions require signatures from multiple keys across different levels.
-        b. 
-  5. **[Rust Bitcoin library](https://rust-bitcoin.org)**, **[github](https://github.com/rust-bitcoin/rust-bitcoin)** : The rust-bitcoin crate is a library that supports the Bitcoin network protocol and associated primitives. It is designed for Rust programs built to work with the Bitcoin network. Rust-Bitcoin is a low-level library that provides bindings to Bitcoin's core primitives like script, network, and blockchain data structures. It's more of a foundational library upon which other, more user-friendly tools like BDK are built. It's essential for developers who need fine-grained control over Bitcoin operations.
-  6. **[Rust Bitcoin Community](https://github.com/rust-bitcoin)** : A Series of Projects to implement various Bitcoin Protocols in Rust 
-  7. **[Rust for Bitcoiners](https://github.com/bitcoin-dev-project/rust-for-bitcoiners)**: The theme is "Rust for Bitcoiners", so the examples are created in such a way that it is relevant to Bitcoin technology. It consists of a collective of teachings
+  5. Other Bitcoin Rust Projects for reference
+    a. **[Rust Bitcoin library](https://rust-bitcoin.org)**, **[github](https://github.com/rust-bitcoin/rust-bitcoin)** :The rust-bitcoin crate is a library that supports the Bitcoin network protocol and associated primitives. It is designed for Rust programs built to work with the Bitcoin network. Rust-Bitcoin is a low-level library that provides bindings to Bitcoin's core primitives like script, network, and blockchain data structures. It's more of a foundational library upon which other, more user-friendly tools like BDK are built. It's essential for developers who need fine-grained control over Bitcoin operations.
+    b. **[Rust for Bitcoiners](https://github.com/bitcoin-dev-project/rust-for-bitcoiners)**: The theme is "Rust for Bitcoiners", so the examples are created in such a way that it is relevant to Bitcoin technology. It consists of a collective of teachings
+    c. **[Rust Bitcoin Community](https://github.com/rust-bitcoin)** :A Series of Projects to implement various Bitcoin Protocols in Rust
+    d. **[Fedimint](https://github.com/fedimint/fedimint)**: Federated E-Cash Mint
       
 **Summary**: When choosing an SDK or library for Bitcoin development in Rust, consider:
 1. BDK for high-level wallet and transaction management.
@@ -62,9 +63,10 @@ d. [My Citadel](https://mycitadel.io/), [github repo](https://github.com/mycitad
 8. [Atato](https://www.atato.com/) 
    
 # B2C Multi-Sig Software Wallet Providers
-1. Casa - https://casa.io/
-2. Theya - https://www.theya.us/
-3. Nunchuk - https://nunchuk.io/
+1. **[Casa](https://casa.io/)**
+2. **[Theya](https://www.theya.us/)**
+3. **[Nunchuk](https://nunchuk.io/)** 
+4. **[BitVaulty](https://github.com/BitVaulty)**: BitVaults using Multisig and Timelocks
 
 # B2C Hardware Wallet Signing Devices 
 1. Trezor
