@@ -1,14 +1,14 @@
 # Bitcoin ONLY B2B Wallet/Enterprise Custody Solution Providers as Software or Service
-    1. Open Source
-           a. [Caravan](https://help.unchained.com/what-is-caravan), [github repo](https://unchained-capital.github.io/caravan/#/)
-           b. [Liana](https://wizardsardine.com/liana/), [github repo](https://wizardsardine.com/liana/)
-           c. [Galoy](https://www.galoy.io/ ), [github repo](https://github.com/GaloyMoney/blink)
-           d. [My Citadel](https://mycitadel.io/), [github repo](https://github.com/mycitadel/mycitadel-desktop)
-    2. Proprietary 
-         a. AnchorWatch - https://anchorwatch.com/
-         b. OnRamp - https://onrampbitcoin.com/
-         c. Acropolis - https://www.acropolistreasury.com/
-         d. River - https://river.com/business
+1. Open Source
+a. [Caravan](https://help.unchained.com/what-is-caravan), [github repo](https://unchained-capital.github.io/caravan/#/)
+b. [Liana](https://wizardsardine.com/liana/), [github repo](https://wizardsardine.com/liana/)
+c. [Galoy](https://www.galoy.io/ ), [github repo](https://github.com/GaloyMoney/blink)
+d. [My Citadel](https://mycitadel.io/), [github repo](https://github.com/mycitadel/mycitadel-desktop)
+2. Proprietary 
+ a. AnchorWatch - https://anchorwatch.com/
+ b. OnRamp - https://onrampbitcoin.com/
+ c. Acropolis - https://www.acropolistreasury.com/
+ d. River - https://river.com/business
 
 # DevKits/Protocols/DevTools
   1. **[Revault Protocol](https://github.com/revault/revaultd)**: Advanced Bitcoin custody for organizations. It is a Bitcoin vault architecture for multi-party situations. Revault's design philosophy aligns with using what's currently available in Bitcoin's protocol, showcasing how advanced custody solutions can be built without waiting for future protocol upgrades like covenants. This approach demonstrates the flexibility and power of Bitcoin's existing features when creatively applied to solve real-world problems like secure custody.The Revault architecture primarily focuses on using Bitcoin's native features like multi-signature transactions, time-locks, and script capabilities to create a robust custody solution. It doesn't introduce new BIPs but rather innovatively combines existing functionalities:
@@ -26,11 +26,12 @@
         b. 
   5. **[Rust Bitcoin library](https://rust-bitcoin.org)**, **[github](https://github.com/rust-bitcoin/rust-bitcoin)** : The rust-bitcoin crate is a library that supports the Bitcoin network protocol and associated primitives. It is designed for Rust programs built to work with the Bitcoin network. Rust-Bitcoin is a low-level library that provides bindings to Bitcoin's core primitives like script, network, and blockchain data structures. It's more of a foundational library upon which other, more user-friendly tools like BDK are built. It's essential for developers who need fine-grained control over Bitcoin operations.
   6. **[Rust Bitcoin Community](https://github.com/rust-bitcoin)** : A Series of Projects to implement various Bitcoin Protocols in Rust 
-
+  7. **[Rust for Bitcoiners](https://github.com/bitcoin-dev-project/rust-for-bitcoiners)**: The theme is "Rust for Bitcoiners", so the examples are created in such a way that it is relevant to Bitcoin technology. It consists of a collective of teachings
+      
 **Summary**: When choosing an SDK or library for Bitcoin development in Rust, consider:
-  1. BDK for high-level wallet and transaction management.
-  2. Rust-Bitcoin for lower-level operations or if you need to work directly with Bitcoin's core protocols.
-  3. Elements or Rust Lightning if you're exploring sidechains or the Lightning Network.
+1. BDK for high-level wallet and transaction management.
+2. Rust-Bitcoin for lower-level operations or if you need to work directly with Bitcoin's core protocols.
+3. Elements or Rust Lightning if you're exploring sidechains or the Lightning Network.
 
 # BIPs related to Custody, Inheritance, Miniscript, Privacy and Covenants
   1. **[BIP-119](https://github.com/bitcoin/bips/blob/master/bip-0119.mediawiki)** :This BIP introduces a simple covenant called a *template* which enables a limited set of highly valuable use cases without significant risk. BIP-119 templates allow for non-recursive fully-enumerated covenants with no dynamic state. CTV serves as a replacement for a pre-signed transaction oracle, which eliminates the trust and interactivity requirements. Examples of uses include vaults, non-interactive payment channel creation, congestion controlled batching, efficient to construct discreet log contracts, and payment pools, among many other 
