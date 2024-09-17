@@ -105,6 +105,7 @@
 3. *ROAST*: [ROAST MULTI-SIG: Blockstream dreams up a whole new type of multisig called ROAST](https://cointelegraph.com/news/blockstream-dreams-up-a-whole-new-type-of-multisig-called-roast)
 4. *MINISCRIPT*: [Ledger using miniscript: How Ledger’s Implementation Of Miniscript For Bitcoin Opens A World of Possibilities](https://www.ledger.com/blog/how-ledgers-implementation-of-miniscript-for-bitcoin-opens-a-world-of-possibilities)
 5. *MINISCRIPT*: [Ledger: Towards a trustless Bitcoin wallet with miniscript](https://www.ledger.com/blog/towards-a-trustless-bitcoin-wallet-with-miniscript)
+6. *ENTERPRISE BITCOIN*: [github-link](https://github.com/agbegin/enterprise-bitcoin-playbook/blob/main/links.md)
 
 # Top Technical Leaders Open for Consultations
 1. [Vivek kasarabada](https://x.com/seardsalmon) - Miniscript
