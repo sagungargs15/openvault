@@ -6,3 +6,6 @@ A vault is a wallet requiring at least 2 steps to spend a transaction:
 - unlock/unvault
 - spend
 In-between these 2 steps, there is a revault option that can be triggered, effectively preventing the spend.
+
+## More FAQs
+https://www.reddit.com/r/Bitcoin/comments/1bo5wb8/liana_wallet_gathering_some_feedback/
