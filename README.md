@@ -38,13 +38,18 @@ Build a vault standard easily accessible for all Banks to upgrade Infrastructure
               a. Setup vaults for your clients [Individual vs Family vs Institutional]
               b. Purpose based Vaults (multiple configurations)
               c. Vault Configurations: Multi-sig Wallet Setup Options [Custodial, Collaborative vs Non-Custodial]
-              d. 
-              e. Easily Integrate with On Prem / SaaS based e-banking solutions of Banks
+              d. Easily Integrate with On Prem / SaaS based e-banking solutions of Banks
                   a. Multiple Protocol Mediations/DataExchange: RestAPI/GraphAPI/Webhooks/RPCs
                   b. Air gapped Containerized deployments: DockerCompose/K8 HelmCharts/ K8s Operators
                   c. Rolebased Access Control Integration Support: AWS IAMCore / Azure EntraID or ADFS / Google
                   d. Logging & Piping to Enterprise Loggers: 
                   e. Admin Panel to manage Ops from internal employees
+
+# Overall Components
+![Render Image](static-img/overall-components-enterprise-btc-custody.png)
+
+# Overall Options of Product Offering for a BTC Investor
+![Render Image](static-img/btc-investor-product-options.png)
 
 # Overall Architecture 
 ```mermaid
