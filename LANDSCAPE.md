@@ -37,7 +37,9 @@
         (iii) [Axum](https://github.com/tokio-rs/axum) 
         (iv) [Warp](https://github.com/seanmonstar/warp)
         (v) [Gotham](https://github.com/gotham-rs/gotham)
-
+    h. **[SQL ORM for Rust Backend]()**: An async & dynamic ORM for Rust
+        (i) [Sea ORM](https://github.com/SeaQL/sea-orm): SeaORM is a relational ORM to help you build web services in Rust with the familiarity of dynamic languages.
+        (ii) [Diesel](https://github.com/diesel-rs/diesel): Diesel gets rid of the boilerplate for database interaction and eliminates runtime errors without sacrificing performance. It takes full advantage of Rust's type system to create a low overhead query builder that "feels like Rust.
 
 **Summary**: When choosing an SDK or library for Bitcoin development in Rust, consider:
 1. BDK for high-level wallet and transaction management.
