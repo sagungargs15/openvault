@@ -10,7 +10,22 @@ A vault is a wallet requiring at least 2 steps to spend a transaction:
 In-between these 2 steps, there is a revault option that can be triggered, effectively preventing the spend.
 
 ## What is Bitcoin Wallet ?
-What we commonly call a 'wallet' is in fact a descriptor, the descriptor represent the set of spending rules for your coins, if you want to changes this rules yu need to create a new descriptor(wallet). 
+What we commonly call a 'wallet' is in fact a descriptor, the descriptor represent the set of spending rules for your coins, if you want to changes this rules you need to create a new descriptor(wallet). 
+
+## What is "xprv" and "xpub" wrt to Bitcoin Wallet ?
+Extended Keys (i.e Extended Private Key - xprv and Extended Public Key - xpub): These are keys used in hierarchical deterministic (HD) wallets, which allow for the derivation of multiple public and private keys from a single seed. The "x" in xprv and xpub stands for "extended." 
+	- `xprv (Extended Private Key)`: This key contains all the information necessary to derive both private and public keys for addresses in a wallet. It's crucial for spending transactions because it allows you to sign transactions, thus proving ownership of the funds. An xprv can be used to regenerate all child keys, making it extremely sensitive information that should be kept private and secure. If someone gains access to an xprv, they can control all the funds associated with that wallet.
+	
+	- `xpub (Extended Public Key)`: In contrast, the xpub can be shared publicly because it allows only for the derivation of public keys, which are used to generate addresses for receiving funds but cannot be used to spend those funds without the corresponding private keys.
+
+## What is BDK ?
+ BDK is Bitcoin Wallet Development Kit BDK. It is tool and code repository in rust available as a crate for easy development of Modern Bitcoin Wallets. 
+	- BDK uses these extended keys as part of its wallet management system, particularly for creating and managing hierarchical deterministic wallets. This approach simplifies wallet backup and restoration processes since all you need to restore a wallet is the seed (from which the xprv can be derived) or the xprv itself.
+	- In BDK, wallets are often described using "descriptors," which are compact representations of how scripts (and subsequently, addresses) should be generated or derived. An ExtendedDescriptor, which might include an xprv, represents a descriptor with derivable keys, allowing for the creation of multiple addresses from a single descriptor.
+	- When using BDK or its command-line interface (bdk-cli), you might encounter or use xprv when setting up a wallet, especially when dealing with transactions that require signing (spending) capabilities. For instance, generating a new wallet or restoring one from a seed typically involves handling or generating an xprv.
+	- BDK's design around descriptors and extended keys enhances wallet interoperability and functionality, adhering to Bitcoin's standards for key management and transaction signing.
+
+## What is 
 
 ## What is an HSM ? 
 A hardware security module (HSM) is a dedicated crypto processor that is specifically designed for the protection of the crypto private key lifecycle i.e the private keys that are used for proving the Bitcoin Ownership or for moving teh actual Bitcoins. A hardware security module (HSM) provides secure key storage and cryptographic operations within a tamper-resistant hardware device. HSMs are designed to securely store cryptographic key material and use the key material without exposing it outside the cryptographic boundary of the hardware.
@@ -18,9 +33,9 @@ A hardware security module (HSM) is a dedicated crypto processor that is specifi
 ## What is a Software Defined Hardware Security Module (SD-HSM) ?
 A Software Defined Hardware Security Module (HSM) is a virtualized or emulated HSM that provides the functionalities of a physical HSM but operates entirely in software. Unlike traditional physical HSMs that involve dedicated hardware devices to perform cryptographic operations securely, a software-defined HSM replicates these functions on general-purpose hardware, often in a cloud or containerized environment.
     1.	**Cryptographic Operations**: Provides secure key storage, encryption, decryption, and signing operations.
-	2.	**Scalability **: Easier to scale than physical HSMs since they can be deployed in cloud environments.
-	3.	**Flexibility **: Offers flexibility in deployment, can be integrated into DevOps pipelines, and can be containerized for use in microservice architectures.
-	4.	**Cost-Effective **: Reduces the cost and logistical complexity associated with physical HSMs, though it often comes at a trade-off in physical security. 
+	2.	**Scalability**: Easier to scale than physical HSMs since they can be deployed in cloud environments.
+	3.	**Flexibility**: Offers flexibility in deployment, can be integrated into DevOps pipelines, and can be containerized for use in microservice architectures.
+	4.	**Cost-Effective**: Reduces the cost and logistical complexity associated with physical HSMs, though it often comes at a trade-off in physical security. 
 
 ## What is HSM Coldstorage
 For security, OpenVault will store a reserve of Bitcoins in an offline setting. By having these funds offline, it will reduce attack surface and risk of theft.
