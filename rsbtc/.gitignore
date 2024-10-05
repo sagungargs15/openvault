@@ -1,0 +1,125 @@
+# This .gitignore file:
+# Ignores Rust build artifacts and backups
+# Provides an option to ignore Cargo.lock for libraries
+# Excludes common IDE and editor files
+# Ignores OS-generated files
+# Excludes Rust profiling and debugging files
+# 6. Ignores generated documentation
+# Excludes test coverage reports
+# Provides an option to ignore vendored dependencies
+# Ignores environment files
+# Excludes log files
+# 11. Ignores various temporary and backup files
+# Excludes compiled libraries and executables
+# 13. Ignores Rust crash reports
+# 14. Excludes Cargo config files
+# Ignores Rustfmt backup files
+# 16. Excludes Clippy cache
+# Ignores Crates.io tokens
+# Excludes Rust analyzer files
+# Ignores patch and diff files
+# 20. Excludes Rustup toolchain files
+# Ignores custom ignore files for specific tools or workflows
+
+# Rust build artifacts
+/target/
+**/*.rs.bk
+*.pdb
+
+# Cargo.lock for libraries
+# Uncomment this line if your project is a library
+# Cargo.lock
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Rust profiling and debugging files
+*.profraw
+flamegraph.svg
+perf.data
+perf.data.old
+
+# Documentation
+/target/doc/
+
+# Test coverage
+/target/coverage/
+/target/debug/coverage/
+/target/release/coverage/
+
+# Dependency directories (remove if you're using cargo vendor)
+/vendor/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Log files
+*.log
+log/
+logs/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Compiled dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled static libraries
+*.a
+*.lib
+
+# Executables
+*.exe
+
+# Rust crash reports
+*.stackdump
+
+# Cargo config
+.cargo/config.toml
+
+# Rustfmt backup files
+**/*.rs.fmt
+
+# Clippy cache
+.clippy.toml
+
+# Crates.io tokens
+.crates.toml
+
+# Rust analyzer files
+rust-project.json
+
+# Backup files
+*.bak
+*.backup
+
+# Patch files
+*.patch
+*.diff
+
+# Rustup toolchain files
+rust-toolchain
+rust-toolchain.toml
+
+# Custom ignore files for specific tools or workflows
+.ignore
