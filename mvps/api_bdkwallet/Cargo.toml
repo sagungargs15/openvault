@@ -1,5 +1,5 @@
 [package]
-name = "api_btcwallet"
+name = "api_bdkwallet"
 version = "0.1.0"
 edition = "2021"
 

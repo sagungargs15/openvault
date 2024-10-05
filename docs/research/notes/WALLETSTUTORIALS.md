@@ -1,5 +1,5 @@
 
-# PREVIOUS WALLET ATTEMPTs & TUTORIALS
+# PREVIOUS WALLET MVPs, ATTEMPTs & TUTORIALS
 1. https://github.com/futurepaul/bdk-cli-tutorial#step-6a-whats-a-psbt
 2. https://github.com/RGGH/bdk_3axum
 3. https://github.com/RGGH/PlebsBDK
@@ -8,6 +8,30 @@
 6. https://github.com/RGGH/rust-bitoin-example
 7. https://github.com/RGGH/bdk_2
 8. https://bitcoindevkit.github.io/book-of-bdk/cookbook/starter/
+9. https://github.com/BinChengZhao/bdk-testnet4 - A repository demonstrating BDK support for Testnet4 by utilizing a custom genesis hash to initialize a wallet, following the BDK author's guidance.
+10. https://github.com/futurechimp/bdk-wallet-experiment - The project is basically a way to try and figure out the process of generating policies + descriptors, extracting them into PSBTS, signing those cooperatively, putting them into the blockchain, and processing them.
+11. https://github.com/w0xlt/bdk-sample
+12. https://github.com/futurepaul/bdk-cli-tutorial
+13. https://github.com/notmandatory/bdk-yew-example - This project builds a simple bdk-wasm based testnet wallet as a single page web app. The page can be hosted locally or automatically deployed to GitHub Pages.
+14. https://github.com/rajarshimaitra/bdk-example
+15. https://github.com/oleonardolima/block-events
+16. https://github.com/oleonardolima/bdk_workshop
+17. https://github.com/bonomat/bdk-showcase 
+18. https://github.com/radss000/BIP47_BDK
+19. https://github.com/realeinherjar/bdk-browser-wallet - Bitcoin Wallet in the Browser with BDK and Leptos
+20. https://github.com/sandipndev/bdk-api
+21. https://github.com/notmandatory/TABConf2022-BDK
+22. https://github.com/isaac-asdf/egui_bdk_wallet
+23. https://github.com/sujalharkut/Dummy_Wallet_bdk
+24. https://github.com/lightningj-org/btc-tool
+25. https://github.com/td-bn/rpc-wallet - Simple BDK wallet implementation using RpcBlockchain for network interactions.
+26. https://github.com/rodribp/bdk-rust-excercise
+27. https://github.com/Ayoseun/Rust-Bitcoin-wallet-Generator - This is a Rust example showcasing the use of the `bdk` (Bitcoin Development Kit) library to build a simple Bitcoin wallet. The example demonstrates key functionalities such as syncing with the blockchain, checking balances, generating new addresses, and creating and broadcasting transactions.
+28. https://github.com/0xfauzi/create_sign_tx - Demonstration of how a bitcoin TestNet transaction can be created and signed using BDK
+29.https://github.com/lightningj-org/btc-tool - Simple demo Bitcoin wallet using Rust and BDK developmen toolkit
+30. https://github.com/tipogi/trustaction-cli - Practise bitcoin transactions
+31. https://github.com/isaac-asdf/egui_bdk_wallet - This project aims to be a light wrapper on top of bdk. Making cutting edge wallet capabilities graphically accessible (or customizable by any dev) in a simple Rust UI will hopefully allow this project to become useful for niche scenarios.
+32. https://github.com/nobu-maeda/n3xb-bdk-derisk - This is a Rust playground to learn how BDK works and derisk the necessary components needed to implement the proof of concept rusty-n3xb library 
 
 # Reference Talks on Self-Custody, Inheritance, Enterprise Custody, Miniscript and Covenants
 1. INSTITUTIONAL CUSTODY: [24Jan2024]Bitcoin Custody for Institutions w/ Caitlin Long & Wes Knobel (BTC166): [Video](https://www.youtube.com/watch?v=u8UpiYJqCTo)

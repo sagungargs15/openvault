@@ -9,13 +9,13 @@
 # How to Run on your local machine
 
 ## Open Terminal 
-> cd api_btcwallet 
+> cd api_bdkwallet 
 > cargo build
 > cargo run
 
 ## Open Browser
 
-TODO:Check if the Rust crate "api_btcwallet" successfuly ran by opening your Browser: http://127.0.0.1:8080 and seeing "Hello World"
+TODO:Check if the Rust crate "api_bdkwallet" successfuly ran by opening your Browser: http://127.0.0.1:8080 and seeing "Hello World"
 
 TODO: Check if the Swagger UI - OPEN API specs for the two created APIs are visible: http://127.0.0.1:8080/redoc
 
@@ -26,7 +26,7 @@ e.g. Page shows: {"amount":null,"message":"tb1qlxrj38nf6h469xhnh97s80m5nes4xspf3
 The new Bitcoin Wallet XPUB address generated on Bitcoin testnet is "tb1qlxrj38nf6h469xhnh97s80m5nes4xspf3t949h"
 Now open Bitcoin testnet Faucet URL: https://bitcoinfaucet.uo1.net/. Use this platform to receive some dummy Bitcoin Sats on testnet on the above Wallet address i.e "tb1qlxrj38nf6h469xhnh97s80m5nes4xspf3t949h"
 Once you hit receiving the dummy Bitcoin on testnet via https://bitcoinfaucet.uo1.net/ and using your newly generated wallet address: "tb1qlxrj38nf6h469xhnh97s80m5nes4xspf3t949h" you will see the below screen
-![Image](/api_btcwallet/SuccessfulReceiveDummyBitcoinOnTestnet.png)
+![Image](/api_bdkwallet/SuccessfulReceiveDummyBitcoinOnTestnet.png)
 
 
 ## We have 3 API routes designed

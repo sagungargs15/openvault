@@ -2,6 +2,6 @@
    resolver = "2"
    members = [
       "lib",
-      "api_btcwallet",
-      "cli_btcwallet"
+      "api_bdkwallet",
+      "cli_bdkwallet"
 ]
