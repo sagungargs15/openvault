@@ -25,7 +25,21 @@ Extended Keys (i.e Extended Private Key - xprv and Extended Public Key - xpub): 
 	- When using BDK or its command-line interface (bdk-cli), you might encounter or use xprv when setting up a wallet, especially when dealing with transactions that require signing (spending) capabilities. For instance, generating a new wallet or restoring one from a seed typically involves handling or generating an xprv.
 	- BDK's design around descriptors and extended keys enhances wallet interoperability and functionality, adhering to Bitcoin's standards for key management and transaction signing.
 
-## What is 
+## What is a descriptor in Bitcoin Wallets? context ?
+Descriptors in BDK are strings that encode a script template, which can include public keys or extended public keys (xpubs), along with derivation paths. For instance, when you generate a wallet with BDK, you might use a descriptor template like BIP86 (Taproot) 
+
+## What is "external descriptor" and "internal descriptor" in terms of Wallets?
+They refer to distinct sets of addresses used for different transaction types:
+	- **External Descriptors**: These are typically used for receiving funds. When you share your Bitcoin address with someone to receive payments, this address is derived from an external descriptor. External descriptors are designed for addresses that are meant to be shared publicly.
+	- **Internal Descriptors**: These are used for change addresses. When you send Bitcoin, the transaction might not use the exact amount you have in an existing UTXO (Unspent Transaction Output). The leftover amount, after subtracting the transaction fee, goes to a change address. These addresses are not meant to be shared publicly and are used internally by the wallet to manage funds.
+
+## Why separate and bucket descriptors in two different categories ?
+The separation into external and internal descriptors enhances privacy and security
+	- Privacy: By using different addresses for change, it becomes harder for external observers to link transactions together, thus enhancing transaction privacy.
+	- Security: If someone were to compromise an external address, they wouldn't immediately gain access to internal change addresses, providing an additional layer of security.	
+
+## What is the Concept of KeychainKind in BDK SDK for Bitcoin Wallets ? 
+BDK uses a concept called KeychainKind, which can be either External or Internal. This distinction helps in generating the appropriate type of address based on whether it's for receiving funds or for change.When setting up a wallet or generating addresses in BDK, developers can specify whether they want an address for external use (receiving) or internal use (change). This is done through the KeychainKind::External or KeychainKind::Internal flags when building descriptors or generating addresses.
 
 ## What is an HSM ? 
 A hardware security module (HSM) is a dedicated crypto processor that is specifically designed for the protection of the crypto private key lifecycle i.e the private keys that are used for proving the Bitcoin Ownership or for moving teh actual Bitcoins. A hardware security module (HSM) provides secure key storage and cryptographic operations within a tamper-resistant hardware device. HSMs are designed to securely store cryptographic key material and use the key material without exposing it outside the cryptographic boundary of the hardware.
