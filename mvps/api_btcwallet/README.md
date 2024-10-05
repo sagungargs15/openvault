@@ -61,7 +61,7 @@ Response:
 ```
 
 
-# Learning Rust, Axum, BDK
+# Learning Rust Axum BDK
 
 My bad..I thought BDK needed to use a database...Duh! - That's what the xprv is for!
 This code will look ugly, I'll refactor in due course.
