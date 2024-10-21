@@ -1,0 +1,11 @@
+[package]
+name = "egui_bdkwallet"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+egui = "0.22.0"
+eframe = "0.22.0"
+bdk = { version = "0.28.0", features = ["all-keys"] }
+miniscript = "9.0.0"
+bitcoin = "0.30.0"

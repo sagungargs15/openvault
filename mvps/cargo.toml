@@ -3,5 +3,9 @@
    members = [
       "lib",
       "api_bdkwallet",
-      "cli_bdkwallet"
+      "cli_bdkwallet",
+      "egui_bdkwallet",
+      "egui_helloworld",
+      "egui_mobileresponsive",
+      "egui_advancedwallet"
 ]

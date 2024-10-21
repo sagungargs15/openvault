@@ -1,0 +1,12 @@
+[package]
+name = "egui_mobileresponsive"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.22.0"
+egui = "0.22.0"
+egui_extras = "0.22.0"
+
+[lib]
+crate-type = ["cdylib", "rlib"]

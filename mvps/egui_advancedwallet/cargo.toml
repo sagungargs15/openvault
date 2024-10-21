@@ -1,0 +1,14 @@
+[package]
+name = "egui_advancedwallet"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.22.0"
+egui = "0.22.0"
+egui_extras = "0.22.0"
+chrono = "0.4"
+rand = "0.8"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
