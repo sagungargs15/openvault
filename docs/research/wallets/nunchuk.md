@@ -237,7 +237,7 @@ Bitcoin Network
 - Address management
 - Network privacy options
 
-## Features:
+## Exceptional Features:
 
 - **UI/UX Experience Layer**: Nunchuk’s UI/UX layer includes both mobile and desktop interfaces that emphasize usability while managing complex multisig interactions.
 - **UI/UX Experience Layer**: The interface allows users to set up multisig wallets, view balances, propose transactions, and confirm signatures. It includes features like push notifications for transaction proposals, reminders for pending signatures, and visual prompts for multisig processes, making multisig accessible to non-technical users.
