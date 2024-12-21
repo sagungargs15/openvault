@@ -18,6 +18,9 @@ Extended Keys (i.e Extended Private Key - xprv and Extended Public Key - xpub): 
 	
 	- `xpub (Extended Public Key)`: In contrast, the xpub can be shared publicly because it allows only for the derivation of public keys, which are used to generate addresses for receiving funds but cannot be used to spend those funds without the corresponding private keys.
 
+## 🚨 What is the meaning of this wallet is self-custodial. 
+It means that, when creating a new wallet, a 12-words recovery phrase is generated. Only you have it. It is your responsibility to make a backup of that recovery phrase. It gives full access to your funds, so do not share it with anyone. If you lose the recovery phrase, your funds are lost.	
+
 ## What is BDK ?
  BDK is Bitcoin Wallet Development Kit BDK. It is tool and code repository in rust available as a crate for easy development of Modern Bitcoin Wallets. 
 	- BDK uses these extended keys as part of its wallet management system, particularly for creating and managing hierarchical deterministic wallets. This approach simplifies wallet backup and restoration processes since all you need to restore a wallet is the seed (from which the xprv can be derived) or the xprv itself.
