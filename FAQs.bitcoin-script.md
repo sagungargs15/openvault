@@ -6,8 +6,14 @@ or_b(pk(key_1),s:pk(key_2))
 ```
 
 # Bitcoin Script
-
-
+```
+<key_1>
+OP_CHECKSIG
+OP_SWAP 
+<key_2>
+OP_CHECKSIG
+OP_BOOLOR
+```
 
 # Bitcoin Script as ASCII ART
 ```
